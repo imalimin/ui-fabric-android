@@ -8,8 +8,8 @@ package com.microsoft.officeuifabric.persona
 import android.content.Context
 import android.graphics.*
 import android.graphics.drawable.Drawable
-import android.support.annotation.ColorInt
-import android.support.annotation.IntRange
+import androidx.annotation.ColorInt
+import androidx.annotation.IntRange
 import android.text.*
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.util.ThemeUtil

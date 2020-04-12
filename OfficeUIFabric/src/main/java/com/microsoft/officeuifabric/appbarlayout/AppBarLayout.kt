@@ -8,16 +8,15 @@ package com.microsoft.officeuifabric.appbarlayout
 import android.animation.AnimatorInflater
 import android.content.Context
 import android.os.Build
-import android.support.annotation.IdRes
-import android.support.design.widget.AppBarLayout
-import android.support.design.widget.AppBarLayout.LayoutParams.*
-import android.support.design.widget.AppBarLayout.OnOffsetChangedListener
-import android.support.design.widget.CoordinatorLayout
-import android.support.v4.widget.NestedScrollView
-import android.support.v7.widget.RecyclerView
 import android.util.AttributeSet
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.IdRes
+import androidx.coordinatorlayout.widget.CoordinatorLayout
+import androidx.core.widget.NestedScrollView
+import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.appbar.AppBarLayout
+import com.google.android.material.appbar.AppBarLayout.LayoutParams.*
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.appbarlayout.AppBarLayout.ScrollBehavior
 import com.microsoft.officeuifabric.search.Searchbar
@@ -109,10 +108,11 @@ class AppBarLayout : AppBarLayout {
 
     private val behavior = Behavior()
 
-    private val offsetChangedListener = OnOffsetChangedListener { appBarLayout, verticalOffset ->
-        toolbar.alpha = 1f - abs(verticalOffset / (appBarLayout.totalScrollRange.toFloat() / 3))
-        setStateListAnimator(verticalOffset != 0)
-    }
+    private val offsetChangedListener =
+        com.google.android.material.appbar.AppBarLayout.OnOffsetChangedListener { appBarLayout, verticalOffset ->
+            toolbar.alpha = 1f - abs(verticalOffset / (appBarLayout.totalScrollRange.toFloat() / 3))
+            setStateListAnimator(verticalOffset != 0)
+        }
 
     private val recyclerViewScrollListener = object : RecyclerView.OnScrollListener() {
         override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {

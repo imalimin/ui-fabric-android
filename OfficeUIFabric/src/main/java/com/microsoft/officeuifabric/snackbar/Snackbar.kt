@@ -6,16 +6,16 @@
 package com.microsoft.officeuifabric.snackbar
 
 import android.content.Context
-import android.support.design.widget.BaseTransientBottomBar
-import android.support.design.widget.CoordinatorLayout
-import android.support.v4.content.ContextCompat
-import android.support.v7.widget.AppCompatButton
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
+import androidx.appcompat.widget.AppCompatButton
+import androidx.coordinatorlayout.widget.CoordinatorLayout
+import androidx.core.content.ContextCompat
+import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.R.id.*
 import com.microsoft.officeuifabric.theming.UIFabricContextThemeWrapper

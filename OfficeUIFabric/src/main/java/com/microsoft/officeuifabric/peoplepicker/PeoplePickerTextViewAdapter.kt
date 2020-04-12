@@ -7,11 +7,11 @@ package com.microsoft.officeuifabric.peoplepicker
 
 import android.content.Context
 import android.graphics.drawable.InsetDrawable
-import android.support.v4.content.ContextCompat
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import androidx.core.content.ContextCompat
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.listitem.ListItemView
 import com.microsoft.officeuifabric.persona.*

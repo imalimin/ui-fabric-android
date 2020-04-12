@@ -9,14 +9,14 @@ import android.content.Context
 import android.content.res.ColorStateList
 import android.graphics.Color
 import android.graphics.drawable.Drawable
-import android.support.annotation.ArrayRes
-import android.support.annotation.AttrRes
-import android.support.annotation.ColorInt
-import android.support.annotation.DrawableRes
-import android.support.v4.content.ContextCompat
-import android.support.v4.graphics.ColorUtils
+import androidx.annotation.ArrayRes
+import androidx.annotation.AttrRes
+import androidx.annotation.ColorInt
+import androidx.annotation.DrawableRes
 import android.util.Log
 import android.util.TypedValue
+import androidx.core.content.ContextCompat
+import androidx.core.graphics.ColorUtils
 
 /**
  *[ThemeUtil] came from client-android. Fabric currently uses this to generate background colors for

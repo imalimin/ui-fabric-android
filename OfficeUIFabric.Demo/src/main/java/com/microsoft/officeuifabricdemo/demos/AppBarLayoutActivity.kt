@@ -7,12 +7,12 @@ package com.microsoft.officeuifabricdemo.demos
 
 import android.graphics.PorterDuff
 import android.os.Bundle
-import android.support.v4.content.ContextCompat
-import android.support.v7.widget.DividerItemDecoration
 import android.view.ContextThemeWrapper
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.DividerItemDecoration
 import com.microsoft.officeuifabric.appbarlayout.AppBarLayout
 import com.microsoft.officeuifabric.listitem.ListItemDivider
 import com.microsoft.officeuifabric.listitem.ListSubHeaderView
@@ -128,7 +128,7 @@ class AppBarLayoutActivity : DemoActivity(), View.OnClickListener {
         updateSearchbar()
     }
 
-    override fun onSaveInstanceState(outState: Bundle?) {
+    override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
 
         searchbarQuery = searchbar.query.toString()

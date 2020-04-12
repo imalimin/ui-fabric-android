@@ -8,8 +8,8 @@ package com.microsoft.officeuifabric.bottomsheet
 import android.content.Context
 import android.os.Parcel
 import android.os.Parcelable
-import android.support.annotation.ColorInt
-import android.support.annotation.DrawableRes
+import androidx.annotation.ColorInt
+import androidx.annotation.DrawableRes
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.util.ThemeUtil
 

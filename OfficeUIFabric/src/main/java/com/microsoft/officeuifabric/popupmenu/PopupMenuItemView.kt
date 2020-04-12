@@ -7,10 +7,7 @@ package com.microsoft.officeuifabric.popupmenu
 
 import android.content.Context
 import android.graphics.PorterDuff
-import android.support.annotation.DrawableRes
-import android.support.v4.view.AccessibilityDelegateCompat
-import android.support.v4.view.ViewCompat
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat
+import androidx.annotation.DrawableRes
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
@@ -19,6 +16,9 @@ import android.widget.CheckBox
 import android.widget.ImageView
 import android.widget.RadioButton
 import android.widget.TextView
+import androidx.core.view.AccessibilityDelegateCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.accessibility.AccessibilityNodeInfoCompat
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.popupmenu.PopupMenu.Companion.DEFAULT_ITEM_CHECKABLE_BEHAVIOR
 import com.microsoft.officeuifabric.util.ThemeUtil

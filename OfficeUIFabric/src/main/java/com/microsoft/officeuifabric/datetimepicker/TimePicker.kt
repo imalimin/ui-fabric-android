@@ -6,15 +6,15 @@
 package com.microsoft.officeuifabric.datetimepicker
 
 import android.content.Context
-import android.support.design.widget.TabLayout
-import android.support.v4.view.AccessibilityDelegateCompat
-import android.support.v4.view.ViewCompat
+import com.google.android.material.tabs.TabLayout
 import android.text.format.DateFormat
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.View
 import android.view.accessibility.AccessibilityEvent
 import android.widget.LinearLayout
+import androidx.core.view.AccessibilityDelegateCompat
+import androidx.core.view.ViewCompat
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.datetimepicker.TimePicker.PickerMode
 import com.microsoft.officeuifabric.managers.PreferencesManager

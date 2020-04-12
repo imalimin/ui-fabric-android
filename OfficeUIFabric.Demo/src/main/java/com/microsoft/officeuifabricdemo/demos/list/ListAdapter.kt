@@ -6,12 +6,12 @@
 package com.microsoft.officeuifabricdemo.demos.list
 
 import android.content.Context
-import android.support.v7.widget.AppCompatButton
-import android.support.v7.widget.RecyclerView
+import androidx.appcompat.widget.AppCompatButton
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.FrameLayout
 import android.widget.LinearLayout
+import androidx.recyclerview.widget.RecyclerView
 import com.microsoft.officeuifabric.listitem.ListItemView
 import com.microsoft.officeuifabric.listitem.ListSubHeaderView
 import com.microsoft.officeuifabric.snackbar.Snackbar

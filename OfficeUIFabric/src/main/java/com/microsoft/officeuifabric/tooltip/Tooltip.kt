@@ -9,9 +9,6 @@ import android.content.Context
 import android.graphics.Color
 import android.graphics.Rect
 import android.graphics.drawable.ColorDrawable
-import android.support.v4.view.AccessibilityDelegateCompat
-import android.support.v4.view.ViewCompat
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
@@ -19,6 +16,9 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.PopupWindow
 import android.widget.TextView
+import androidx.core.view.AccessibilityDelegateCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.accessibility.AccessibilityNodeInfoCompat
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.theming.UIFabricContextThemeWrapper
 import com.microsoft.officeuifabric.util.*

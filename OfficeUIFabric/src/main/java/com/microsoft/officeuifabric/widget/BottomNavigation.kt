@@ -6,7 +6,7 @@
 package com.microsoft.officeuifabric.widget
 
 import android.content.Context
-import android.support.design.widget.BottomNavigationView
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import android.util.AttributeSet
 import com.microsoft.officeuifabric.theming.UIFabricContextThemeWrapper
 

@@ -8,10 +8,10 @@ package com.microsoft.officeuifabric.view
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Paint
-import android.support.annotation.ColorInt
-import android.support.v4.content.ContextCompat
-import android.support.v7.widget.DividerItemDecoration
 import android.view.View
+import androidx.annotation.ColorInt
+import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.DividerItemDecoration
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.theming.UIFabricContextThemeWrapper
 import com.microsoft.officeuifabric.util.ThemeUtil

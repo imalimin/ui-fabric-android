@@ -6,7 +6,7 @@
 package com.microsoft.officeuifabricdemo.demos
 
 import android.os.Bundle
-import android.support.v4.widget.TextViewCompat
+import androidx.core.widget.TextViewCompat
 import com.microsoft.officeuifabricdemo.DemoActivity
 import com.microsoft.officeuifabricdemo.R
 import kotlinx.android.synthetic.main.activity_typography.*

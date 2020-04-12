@@ -10,12 +10,12 @@ import android.content.res.ColorStateList
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
 import android.net.Uri
-import android.support.annotation.AttrRes
-import android.support.v4.content.ContextCompat
+import androidx.annotation.AttrRes
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.util.ThemeUtil
 import com.microsoft.officeuifabric.util.isVisible

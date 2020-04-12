@@ -6,9 +6,9 @@
 package com.microsoft.officeuifabric.bottomsheet
 
 import android.content.Context
-import android.support.annotation.StyleRes
 import android.view.View
 import android.view.Window
+import androidx.annotation.StyleRes
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.drawer.DrawerDialog
 import com.microsoft.officeuifabric.listitem.ListItemView

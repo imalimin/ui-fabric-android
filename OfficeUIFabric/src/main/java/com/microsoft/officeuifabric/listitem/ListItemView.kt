@@ -6,8 +6,6 @@
 package com.microsoft.officeuifabric.listitem
 
 import android.content.Context
-import android.support.annotation.DrawableRes
-import android.support.v4.widget.TextViewCompat
 import android.text.TextUtils
 import android.util.AttributeSet
 import android.view.Gravity
@@ -15,6 +13,8 @@ import android.view.View
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
+import androidx.annotation.DrawableRes
+import androidx.core.widget.TextViewCompat
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.util.setContentAndUpdateVisibility
 import com.microsoft.officeuifabric.view.TemplateView

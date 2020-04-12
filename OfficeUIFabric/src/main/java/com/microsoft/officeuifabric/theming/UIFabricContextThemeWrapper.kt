@@ -7,7 +7,7 @@ package com.microsoft.officeuifabric.theming
 
 import android.content.Context
 import android.content.res.Resources
-import android.support.v7.view.ContextThemeWrapper
+import androidx.appcompat.view.ContextThemeWrapper
 import com.microsoft.officeuifabric.R
 
 class UIFabricContextThemeWrapper(base: Context) : ContextThemeWrapper(base, R.style.Theme_UIFabric) {

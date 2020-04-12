@@ -6,14 +6,14 @@
 package com.microsoft.officeuifabric.calendar
 
 import android.content.Context
-import android.support.v4.view.ViewCompat
-import android.support.v4.widget.TextViewCompat
 import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.Gravity
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.core.view.ViewCompat
+import androidx.core.widget.TextViewCompat
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.managers.PreferencesManager
 import org.threeten.bp.DayOfWeek

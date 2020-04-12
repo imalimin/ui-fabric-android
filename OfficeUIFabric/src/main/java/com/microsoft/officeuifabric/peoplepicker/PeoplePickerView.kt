@@ -6,13 +6,13 @@
 package com.microsoft.officeuifabric.peoplepicker
 
 import android.content.Context
-import android.support.v4.content.ContextCompat
 import android.util.AttributeSet
 import android.view.View.OnClickListener
 import android.view.ViewGroup
 import android.view.accessibility.AccessibilityEvent
 import android.widget.Filter
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.persona.IPersona
 import com.microsoft.officeuifabric.persona.Persona

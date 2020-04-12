@@ -8,7 +8,7 @@ package com.microsoft.officeuifabric.datetimepicker
 import android.app.Dialog
 import android.content.Context
 import android.os.Bundle
-import android.support.v7.app.AppCompatDialogFragment
+import androidx.appcompat.app.AppCompatDialogFragment
 import com.jakewharton.threetenabp.AndroidThreeTen
 import com.microsoft.officeuifabric.datetimepicker.DateTimePickerDialog.*
 import com.microsoft.officeuifabric.util.DateTimeUtils

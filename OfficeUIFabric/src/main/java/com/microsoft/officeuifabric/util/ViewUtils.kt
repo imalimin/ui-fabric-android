@@ -7,14 +7,14 @@ package com.microsoft.officeuifabric.util
 
 import android.content.Context
 import android.content.ContextWrapper
-import android.support.annotation.ColorInt
-import android.support.annotation.DrawableRes
-import android.support.v4.content.ContextCompat
-import android.support.v7.app.AppCompatActivity
+import androidx.annotation.ColorInt
+import androidx.annotation.DrawableRes
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager
 import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 
 /**
  * Adds a given [view] to a [ViewGroup]. Especially useful when you need a custom view in a control.

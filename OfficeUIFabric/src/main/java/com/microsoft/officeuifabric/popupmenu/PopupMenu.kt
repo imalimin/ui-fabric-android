@@ -6,9 +6,9 @@
 package com.microsoft.officeuifabric.popupmenu
 
 import android.content.Context
-import android.support.v4.content.ContextCompat
-import android.support.v7.widget.ListPopupWindow
 import android.view.View
+import androidx.appcompat.widget.ListPopupWindow
+import androidx.core.content.ContextCompat
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.popupmenu.PopupMenu.ItemCheckableBehavior
 import com.microsoft.officeuifabric.theming.UIFabricContextThemeWrapper

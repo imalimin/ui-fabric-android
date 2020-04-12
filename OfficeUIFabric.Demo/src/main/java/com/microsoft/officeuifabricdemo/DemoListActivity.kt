@@ -8,13 +8,13 @@ package com.microsoft.officeuifabricdemo
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.DividerItemDecoration
-import android.support.v7.widget.RecyclerView
-import android.support.v7.widget.SearchView
+import androidx.recyclerview.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.SearchView
+import androidx.recyclerview.widget.DividerItemDecoration
 import com.microsoft.officeuifabric.listitem.ListItemDivider
 import com.microsoft.officeuifabric.listitem.ListItemView
 import com.microsoft.officeuifabric.search.Searchbar

@@ -13,9 +13,6 @@ import android.graphics.Rect
 import android.graphics.drawable.ColorDrawable
 import android.os.Build
 import android.os.Bundle
-import android.support.v4.view.ViewCompat
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat
-import android.support.v4.widget.ExploreByTouchHelper
 import android.text.*
 import android.text.method.MovementMethod
 import android.text.style.TextAppearanceSpan
@@ -31,6 +28,9 @@ import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityNodeInfo
 import android.view.inputmethod.InputMethodManager
 import android.widget.MultiAutoCompleteTextView
+import androidx.core.view.ViewCompat
+import androidx.core.view.accessibility.AccessibilityNodeInfoCompat
+import androidx.customview.widget.ExploreByTouchHelper
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.peoplepicker.PeoplePickerView.PersonaChipClickListener
 import com.microsoft.officeuifabric.persona.IPersona

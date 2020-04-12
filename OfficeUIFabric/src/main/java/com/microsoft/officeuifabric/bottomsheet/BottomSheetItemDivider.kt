@@ -8,8 +8,8 @@ package com.microsoft.officeuifabric.bottomsheet
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Rect
-import android.support.v7.widget.RecyclerView
 import android.view.View
+import androidx.recyclerview.widget.RecyclerView
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.listitem.ListItemView
 import com.microsoft.officeuifabric.util.ThemeUtil

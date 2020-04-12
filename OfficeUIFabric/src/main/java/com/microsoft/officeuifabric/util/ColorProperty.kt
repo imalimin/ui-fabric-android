@@ -5,8 +5,8 @@
 
 package com.microsoft.officeuifabric.util
 
-import android.support.v4.view.ViewCompat
 import android.view.View
+import androidx.core.view.ViewCompat
 
 /**
  * [ColorProperty] a class to manipulate colors where performance is a concern

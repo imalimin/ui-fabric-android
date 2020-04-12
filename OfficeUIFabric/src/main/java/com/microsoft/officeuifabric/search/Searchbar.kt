@@ -7,9 +7,6 @@ package com.microsoft.officeuifabric.search
 
 import android.app.SearchableInfo
 import android.content.Context
-import android.support.v4.content.ContextCompat
-import android.support.v7.widget.AppCompatImageView
-import android.support.v7.widget.SearchView
 import android.util.AttributeSet
 import android.view.View
 import android.view.inputmethod.InputMethodManager
@@ -17,6 +14,9 @@ import android.widget.FrameLayout
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.LinearLayout
+import androidx.appcompat.widget.AppCompatImageView
+import androidx.appcompat.widget.SearchView
+import androidx.core.content.ContextCompat
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.appbarlayout.AppBarLayout
 import com.microsoft.officeuifabric.util.inputMethodManager

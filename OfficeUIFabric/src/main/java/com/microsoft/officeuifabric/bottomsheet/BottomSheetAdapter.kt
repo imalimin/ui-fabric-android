@@ -6,11 +6,11 @@
 package com.microsoft.officeuifabric.bottomsheet
 
 import android.content.Context
-import android.support.annotation.StyleRes
-import android.support.v7.widget.RecyclerView
 import android.view.ContextThemeWrapper
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.annotation.StyleRes
+import androidx.recyclerview.widget.RecyclerView
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.listitem.ListItemView
 import com.microsoft.officeuifabric.util.createImageView

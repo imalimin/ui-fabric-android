@@ -6,10 +6,10 @@
 package com.microsoft.officeuifabric.persona
 
 import android.content.Context
-import android.support.v7.widget.DividerItemDecoration
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
 import android.util.AttributeSet
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.microsoft.officeuifabric.listitem.ListItemDivider
 import java.util.*
 

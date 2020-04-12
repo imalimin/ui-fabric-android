@@ -8,12 +8,12 @@ package com.microsoft.officeuifabric.view
 import android.content.Context
 import android.hardware.SensorManager
 import android.os.SystemClock
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewConfiguration
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 /**
  * Extension of RecyclerView which offers:

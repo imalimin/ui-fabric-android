@@ -11,10 +11,10 @@ import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.Drawable
 import android.net.Uri
 import android.provider.MediaStore
-import android.support.annotation.ColorInt
-import android.support.v4.content.ContextCompat
-import android.support.v7.widget.AppCompatImageView
+import androidx.appcompat.widget.AppCompatImageView
 import android.util.AttributeSet
+import androidx.annotation.ColorInt
+import androidx.core.content.ContextCompat
 import com.microsoft.officeuifabric.R
 
 enum class AvatarStyle {

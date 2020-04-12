@@ -7,11 +7,11 @@ package com.microsoft.officeuifabric.drawer
 
 import android.content.Context
 import android.os.Handler
-import android.support.annotation.StyleRes
-import android.support.design.widget.BottomSheetBehavior
-import android.support.v7.app.AppCompatDialog
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.StyleRes
+import androidx.appcompat.app.AppCompatDialog
+import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.microsoft.officeuifabric.R
 import com.microsoft.officeuifabric.theming.UIFabricContextThemeWrapper
 import com.microsoft.officeuifabric.util.displaySize

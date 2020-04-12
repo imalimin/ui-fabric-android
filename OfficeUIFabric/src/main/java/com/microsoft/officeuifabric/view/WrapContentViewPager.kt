@@ -8,11 +8,11 @@ package com.microsoft.officeuifabric.view
 import android.animation.Animator
 import android.animation.ObjectAnimator
 import android.content.Context
-import android.support.v4.view.ViewPager
 import android.util.AttributeSet
 import android.util.Property
 import android.view.View
 import android.view.ViewGroup
+import androidx.viewpager.widget.ViewPager
 
 /**
  * [WrapContentViewPager] sets and handles changes to the layout height property of ViewPager content

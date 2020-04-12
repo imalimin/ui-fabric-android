@@ -8,11 +8,11 @@ package com.microsoft.officeuifabric.util
 import android.content.Context
 import android.graphics.Point
 import android.graphics.Rect
-import android.support.v4.view.ViewCompat
 import android.view.Surface
 import android.view.View
 import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
+import androidx.core.view.ViewCompat
 
 private const val TABLET_SIZE_THRESHOLD = 600
 private const val NAV_BAR_HEIGHT_STRING = "navigation_bar_height"
